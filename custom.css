@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+.line{
+    background: #fb2056;
+    height: 2px;
+    width: 100px;
+    margin: 10px auto;
+}
+
+/* Header Area */
+.header {
+    background-image: url(Assets/images/hero-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-toggler {
+    background-color: #fb2056;
+    display: contents;
+}
+span.navbar-toggler-icon {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+.nav-item a {
+    color: white;
+    display: block;
+    padding: 9px 10px;
+}
+div#navbarSupportedContent .col-md-3 {
+    text-align: right;
+}
+.overlay{}
+.menu_section{
+    padding: 20px 0;
+}
+.logo{}
+.logo img{
+    max-width: 150px;
+}
+.menu{
+}
+.menu ul{}
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 9px 10px;
+}
+.menu ul li a:hover {
+    color: #fb2056;
+}
+a.nav-link.active {
+    color: #fb2056;
+}
+.click{
+    color: white;
+    background: #fb2056;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+.banner_content{
+    padding: 170px 0;
+    color: white;
+}
+
+
+/* Quote */
+
+.quotes{
+    background: #f7f7f7;
+    padding: 60px 0;
+}
+.quotes img{max-width: 110px;}
+.quotes p, h5{
+    font-weight: 400;
+}
+.quotes h5{}
+
+
+
+/* event */
+
+.event{
+    display: block;
+    margin: 100px 0;
+}
+.event h2{
+    font-size: 46px;
+    font-weight: 600;
+}
+.event_card{margin: 100px 0;}
+.event_card img{
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+}
+.event_card h5{
+    padding: 38px 0;
+    font-weight: 600;
+}
+.event_card p{
+    max-width: 428px;
+    margin: auto;
+    padding-bottom: 33px;
+    font-weight: initial;
+}
+
+
+/* features */
+
+.feature{
+    background-image: url(Assets/images/section-bg-img.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0;
+    color: white;
+}
+.feature .line {
+    margin: 20px 0;
+    width: 80px;
+}
+.feature h2{font-weight: 700;font-size: 35px;}
+.feature p{font-weight: 100;padding: 22px 0;margin-bottom: 28px;}
+
+/* upcoming tour */
+
+.upcoming_tour{
+    padding: 150px 0;
+}
+.upcoming_tour .line {
+    height: 3px;
+    margin: 28px 0;
+    max-width: 50px;
+}
+.upcoming_tour h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.upcoming_tour p{
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+.img_1{}
+.img_1 img{}
+.img_2, .img_4{
+    margin-top: 27px;
+}
+.img_2 img{}
+.img_3{}
+.img_3 img{}
+.img_4{}
+.img_4 img{}
+
+/* footer */
+
+.footer{
+    padding: 40px 0;
+    color: white;
+    background: #222222;
+}
+.footer p{}
+
+
+
+/* Responsive */
+
+@media(max-width: 991px){
+    .container{
+        width: 980px;
+    }
+
+    
+ * {
+    font-size: 75%;
+  }
+  p {
+    font-size: 15px;
+  }
+  .nav-item {
+    font-size: 18px;
+  }
+  #navbarSupportedContent .click {
+    display: none;
+  }
+  .upcoming_tour h2 {
+    font-size: 30px;
+  }
+    
+}
+
+@media(max-width: 767px){
+    .container{
+        width: 750px;
+    }
+    .quotes img {
+        width: 80px;
+    }
+    .upcoming_tour .click {
+        margin-bottom: 50px;
+    }
+    
+    .upcoming_tour p {
+        margin-bottom: 25px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+    }
+    
+    .event_card {
+        margin: 50px 0;
+    }
+    
+
+}
+
+@media(max-width: 575px){
+    .container{
+        width: 565px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
